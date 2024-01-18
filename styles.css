@@ -1,6 +1,5 @@
 .body {
     margin: 0;
-    padding: 0;
 }
 
 .links {
@@ -9,35 +8,27 @@
     justify-content: space-between;
     padding: 0;
     flex: 1;
-    
 }
 
 .header {
-    background-color: #1F2937;
-    display: flex;
-    flex-wrap: wrap;
-  /* justify-content: space-around;*/
+   background-color: #1F2937;
+   display: flex;
+   flex-wrap: wrap;
    padding: 36px;
    flex-direction: column;
-flex: 1; 
+   flex: 1; 
 }
 
 .website {
-    display: flex;
+   display: flex;
    flex: 1;
    padding: 36px;
    gap: 16px;
-/*flex-wrap: wrap;
-;
-*/
 }
 
-.wow {
+.website-child {
     display: flex;
     flex-wrap: wrap;
-    /*flex: 1;
-
-    */
 }
 
 .header button {
@@ -53,14 +44,12 @@ padding: 6px 18px;
     width: 280px;  
     margin-top: 30px;
     gap: 8px; 
-
 }
  
 ul {
     list-style-type: none;
     display: flex;
     gap: 16px;
-   
 }
 
 a {
@@ -77,8 +66,6 @@ font-size: larger;
 
 p, h5 {
     display: flex;
-   /* margin: 0;
-    padding: 0;*/
     color: rgb(209, 202, 202);
     font-size: medium;
 }
@@ -94,15 +81,10 @@ border-radius: 6px;
     display: flex;
 }
 
-
 .items {
     display: flex;
-    /*align-items: center;*/
     flex-wrap: wrap; 
-    /*justify-content: space-between;*/
     flex: 1;
-    
-    
 }
 
 .text {
@@ -116,7 +98,6 @@ h2 {
     font-weight: bold;
     color: #F9FAF8;
     margin-bottom: 0;
-    
 }
 
 h4 {
@@ -136,23 +117,18 @@ align-items: center;
     margin: 56px 46px;
     flex-direction: column;
     padding: 18px;
-    
 }
 
 .click {
     display: flex;
- /*  padding: 16px;*/
- 
 }
 
 .p {
     display: flex;
     flex-wrap: wrap;
-padding-bottom: 26px;
-margin: 0;
-gap: 46px;
-/*justify-content: space-between;*/
-
+    padding-bottom: 26px;
+    margin: 0;
+    gap: 46px;
 }
 
 .action button {
@@ -161,18 +137,14 @@ gap: 46px;
     border: 2px solid #eee;
     color: #eee;
     padding: 2px;
-   /* display: flex;*/
 }
-
-
 
 .blockquote {
     background-color: #b9bcc2;
     padding: 80px;
     margin-top: 50px;
     display: flex;
-    flex-direction: column;
-    
+    flex-direction: column;    
 }
 
 .quote {
@@ -189,13 +161,7 @@ gap: 46px;
     font-weight: bold;
     justify-content: flex-end;   
     display: flex;
-    
 }
-
-span {
-    font-size: bold;
-}
-
 
 .footer {
     background-color: #1F2937;
